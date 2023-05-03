@@ -28,5 +28,16 @@ btn.addEventListener("click", function(){
 //Recupere o elemento tit-sec e atrele a ele um evento de click.
 //Quando clicado o elemento deve diminuir em 10px.
 
+// const h2Element = document.getElementById("meu-tit");
+// h2Element.addEventListener("click", ()=>{
+//     h2Element.setAttribute("style","font-size:15px");
+// } );
+
+const h2Element = document.querySelector("h2");
+h2Element.addEventListener("click", ()=>{
+    h2Element.setAttribute("style","font-size:15px");
+} );
+
+
 
 
